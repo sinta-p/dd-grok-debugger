@@ -13,4 +13,12 @@ This client-side application uses WebAssembly to run PCRE RegEx in the browser. 
 - Add more pattern sets with a URL
 - Save and use your own custom patterns
 
+
 ![screenshot](screenshot.png)
+
+
+
+**NOTE to DD implementation:**
+
+- run xcode-select --install if the npm install doesnt work
+- Currently using v18.4.0

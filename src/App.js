@@ -39,7 +39,8 @@ function App() {
   let [sampleCount, setSampleCount] = useState(0);
 
   const defaultCollections = [
-    { value: "custom", label: "Custom", active: true },
+    { value: "custom", label: "Custom", active: false },
+    { value: "dd-grok-patterns", label: "dd-grok", active: true},
     { value: "aws", label: "AWS", active: false },
     { value: "bacula", label: "Bacula", active: false },
     { value: "bind", label: "BIND", active: false },
