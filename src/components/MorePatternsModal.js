@@ -57,7 +57,7 @@ export const MorePatternsModal = ({ setShowModal, collections, setCollections, p
           <p style={{ marginTop: 0 }}>
             This will make a request to the URL inputted below and attempt to load the patterns from the repsonse. See
             the
-            <a style={{ color: "#89ddff" }} href="https://github.com/cjslack/grok-debugger/tree/master/public/patterns">
+            <a style={{ color: "#89ddff" }} href="https://github.com/sinta-p/dd-grok-debugger/tree/master/public/patterns">
               {" "}
               pattern repository
             </a>{" "}

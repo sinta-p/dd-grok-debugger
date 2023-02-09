@@ -265,7 +265,7 @@ function App() {
               ></Select>
             </div>
             <div style={{ marginTop: 10 }}>
-              <a href="https://github.com/cjslack/grok-debugger/tree/master/public/patterns" target="_blank">
+              <a href="https://github.com/sinta-p/dd-grok-debugger/tree/master/public/patterns" target="_blank">
                 <button className="btn secondary">
                   <ExternalLink />
                   <span>Pattern Repository</span>
