@@ -40,14 +40,14 @@ function App() {
 
   const defaultCollections = [
     { value: "custom", label: "Custom", active: false },
-    { value: "dd-grok-patterns", label: "dd-grok", active: true},
+    { value: "dd-grok", label: "dd-grok", active: false},
     { value: "aws", label: "AWS", active: false },
     { value: "bacula", label: "Bacula", active: false },
     { value: "bind", label: "BIND", active: false },
     { value: "bro", label: "Bro", active: false },
     { value: "exim", label: "Exim", active: false },
     { value: "firewalls", label: "Firewalls", active: false },
-    { value: "grok-patterns", label: "Grok Patterns", active: true },
+    { value: "grok-patterns", label: "Grok Patterns", active: false },
     { value: "haproxy", label: "HAProxy", active: false },
     { value: "httpd", label: "Httpd", active: false },
     { value: "java", label: "Java", active: false },

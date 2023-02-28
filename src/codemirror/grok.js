@@ -6,9 +6,9 @@ export default {
     // groups must span the whole string in this case
     // { regex: /(%{)([^:]+)(:?)([^}]+)(})/, token: [null, 'keyword', null, 'string', null] },
     // Rules are matched in the order in which they ap
-    { regex: /(%{)([^:}]+)(})/, token: ['def', 'operator', 'def'] },
-    { regex: /(%{)([^:}]+)(:)([^}]+)(})/, token: ['def', 'operator', 'def', 'keyword', 'def'] },
-    { regex: /(\\)([\[|\.|\^|\$|\*|\+|\?|\(|\)|\[|\{|\\|\||\]])/, token: ['qualifier', null] },
+    { regex: /(%{)([^:}]+)(})/, token: ['def', 'operator', 'def'] }, //%{WORD}
+    { regex: /(%{)([^:}]+)(:)([^}]+)(})/, token: ['def', 'operator', 'def', 'keyword', 'def'] }, //%{WORD:list}
+    { regex: /(\\)([\[|\.|\^|\$|\*|\+|\?|\(|\)|\[|\{|\\|\||\]])/, token: ['qualifier', null] }, // \\
     { regex: /(\()(\?)(<)([^>]+)(>)/, token: [null, 'def', 'def', 'keyword', 'def'] },
   ],
   // The meta property contains global information about the mode. It
